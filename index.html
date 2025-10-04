@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar thinkers</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <main>
+      <div id="big">
+        <div id="container">
+            <h1 id="heading">
+                Stellar Tninkers
+            </h1>
+        </div>
+        <div id="left">
+          <div ondrop="dropHandler(event)" ondragover="dragoverHandler(event)" id="div1" class="small drop">Small</div>
+          <div ondrop="dropHandler(event)" ondragover="dragoverHandler(event)" id="div2" class="big drop">Big</div>
+              
+          
+        </div>
+        <div id="right">
+              <img src="images/1.png" width="160px" draggable="true" id="img1" class="big" ondragstart="dragstartHandler(event)" >
+              <img src="images/2.png" width="160px" draggable="true" id="img2" class="small" ondragstart="dragstartHandler(event)" >
+              <img src="images/4.png" width="160px" draggable="true" id="img4" class="big" ondragstart="dragstartHandler(event)" >
+              <img src="images/5.png" width="160px" draggable="true" id="img5" class="small" ondragstart="dragstartHandler(event)" >
+              <img src="images/6.png" width="160px" draggable="true" id="img6" class="big" ondragstart="dragstartHandler(event)" >
+              <img src="images/7.png" width="160px" draggable="true" id="img7" class="big" ondragstart="dragstartHandler(event)" >
+              <img src="images/8.png" width="160px" draggable="true" id="img8" class="big" ondragstart="dragstartHandler(event)" >
+            </div>
+        </div>
+      </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
